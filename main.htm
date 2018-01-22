@@ -1,0 +1,59 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>某高専卒業RPG</title>
+<script type="text/javascript" src="test.js"></script>
+</head>
+<body>
+<center>
+<table border width="800px"　height="800px">
+<!-- 上段 -->
+<tr>
+<!-- 日程 -->
+<td valign="top" width="150px"bgcolor="66cdaa">
+<h3 align="center"><div id="text_a"></div></h3></td>
+
+<!-- 体力 -->
+<td valign="top" width="150px"bgcolor="abb8e6">
+<h3 align="center"><div id="power"></div></h3></td>
+
+<td valign="top" width="150px"bgcolor="abb8e6">
+<h3 align="center"><div id="y"></div></h3></td>
+
+<td valign="top" width="150px"bgcolor="abb8e6">
+<h3 align="center"><div id="k"></div></h3></td>
+
+<!-- お金 -->
+<td valign="top" width="150px"bgcolor="fffacd">
+<h4 align="center">お金<br>未設定</h4>
+
+</tr>
+<!-- 中段 -->
+<tr>
+</td><td colspan="5" valign="top" width="600">
+<center>
+<img src="Khiru.jpg" id="sd" width="800" height="400" alt="">
+</center>
+<form name="slide">
+</form>
+</td></tr>
+
+<!-- 下段 -->
+<!-- コメント -->
+<tr><td colspan="5"bgcolor="ffffff"><input type="button" value="進む"onClick="act()"><p align="center"><div id="text_q"></div><br><div id="text_s"></div><input type="button" value="A"onClick="a()"><div id="text_s1"></div><input type="button" value="B"onClick="b()"><div id="text_s2"></div><input type="button" value="C"onClick="c()"><div id="text_s3"></div></p><br></td>
+</tr>
+</table>
+</center>
+
+
+<script type="text/javascript">
+var an=0,bn=0,cn=0,t=200,tuki=4,syu=1;
+var hi=0,count=0,yaju=0,no=0,ykoukando=0,kanojo=0;
+document.getElementById("text_a").innerHTML = ("<h4>"+tuki+"月第"+syu+"週</h4>");
+tairyoku();
+start();
+
+</script>
+</body>
+</html>
